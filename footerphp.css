@@ -1,0 +1,122 @@
+
+p{
+	color: #CCC2FF;
+	line-height: 25px;
+	font-family: 'Ubuntu' ,sans-serif;
+}
+h1, h2,h3{
+	color: #CCC2FF;
+	font-family: 'Ubuntu' ,sans-serif;
+	transform: scale(1);
+	animation:puff-in-center .7s cubic-bezier(.175,.885,.32,1.275) both;
+}
+h2{
+	font-size:35px;
+	text-shadow: 2px 2px 10px #514d66;
+	filter: blur(0px);
+	opacity: 1;
+}
+
+.footer-top{
+	background: white;
+	padding: 30px 0;
+
+}
+.segment-one h2{
+	color: #CCC2FF;
+	margin: 15px 0;
+	text-transform: uppercase;
+}
+.segment-two h2{
+	color: #CCC2FF;
+	margin: 15px 0;
+	text-transform: uppercase;
+}
+.segment-two h2 before{
+	content: "|";
+	color: #CCC2FF;
+	padding-right: 10px;
+}
+.segment-two ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+.segment-two ul li a{
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	line-height: 40px;
+	color: #CCC2FF;
+}
+.segment-two ul li a:hover{
+		color: #CCC2FF
+		margin-left: 15px;
+		transition: all.3s;
+	}
+.segment-three h2{
+	color: #CCC2FF;
+	margin: 15px 0;
+	text-transform: uppercase;
+}
+.segment-three h2 before{
+	content: "|";
+	color: #CCC2FF;
+	padding-right: 10px;
+}
+.segment-three a{
+	background: #CCC2FF;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border-radius: 50%;
+}
+.segment-three a i{
+	font-size:20px;
+	color: #CCC2FF;
+	padding: 10px 12px;
+}
+.segment-four{
+	color: #CCC2FF;
+	margin: 15px 0;
+	text-transform: uppercase;
+}
+.segment-four before{
+	content: '|';
+	color: #CCC2FF;
+	padding-right: 10px;
+}
+.segment-four .text-input{
+	color: #CCC2FF;
+}
+
+.segment-four .contact-btn{
+	background: #CCC2FF;
+	border: none;
+	padding: 3px 15px;
+	margin-left: -5px;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+
+.footer-bottom{
+	text-align: center;
+	background: #CCC2FF;
+	color: white;
+	line-height: 25px;
+	border-radius: 10px;
+}
+
+@media only screen and (min-width: 786px) and (max-width: 991px){
+	.md-mb-30{
+		margin-bottom:30px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.sm-mb-30{
+		margin-bottom: 30px;
+	}
+	.footer-top{
+		padding: 50px 0;
+	}
+}
